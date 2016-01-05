@@ -24,58 +24,46 @@
 		.btn-der
 			margin-left: 10px
 
+#fondo-foto
+	background-color: white
+
+	.foto-perfil
+		text-align: center
+		img
+			border-radius: 100%
+			margin-top: 41px
+			transition: all 1.3s cubic-bezier(.68,-0.55,.27,1.55) 0s
+			&:hover
+				transform: scale(1.25)
+
+
 #fondo-jumbotron
 	font-family: "Open Sans", sans-serif
 	margin-top: -30px
 	margin-bottom: 35px
 
-.hola-jumbotron
-	font-size: 120px
-	margin-bottom: 43px
-	text-align: center
+	.hola-jumbotron
+		font-size: 120px
+		margin-bottom: 43px
+		text-align: center
 
-.texto-jumbotron
-	font-size: 19px
-	font-weight: 300
-	text-align: center
-
-#fondo-foto
-	background-color: white
-
-.foto-perfil
-	text-align: center
-
-.foto-perfil img
-	border-radius: 100%
-	margin-top: 41px
-	transition: all 1.3s cubic-bezier(.68,-0.55,.27,1.55) 0s
-
-.foto-perfil img:hover
-	transform: scale(1.25)
-
-.titulo-especialidades
-	text-align: center
-	font-family: "Open Sans", sans-serif
-	font-size: 40px
-	margin-top: 50px
+	.texto-jumbotron
+		font-size: 19px
+		font-weight: 300
+		text-align: center
 
 #fondo-especialidades
 	background-color: #F2F2F2
 
+	.titulo-especialidades
+		text-align: center
+		font-family: "Open Sans", sans-serif
+		font-size: 40px
+		margin-top: 50px
+
+
 
 /*PruebaParallax*/
-
-.izquierda
-	padding-right: 50%
-	text-align: justify
-	color: white
-
-
-.derecha
-	padding-left: 50%
-	text-align: justify
-	color: white
-
 
 .fondo-bosque
 	background-image: url(./img/bosque.jpg)
@@ -101,18 +89,20 @@
 	background-repeat: no-repeat
 	background-attachment: fixed
 
+.izquierda
+	padding-right: 50%
+	text-align: justify
+	color: white
+	p
+		margin-bottom: 0
+	h3
+		margin-top: 0
 
-.izquierda p
-	margin-bottom: 0
-
-
-.derecha p
-	margin-bottom: 0
-
-
-.derecha h3
-	margin-top: 0
-
-
-.izquierda h3
-	margin-top: 0
+.derecha
+	padding-left: 50%
+	text-align: justify
+	color: white
+	p
+		margin-bottom: 0
+	h3
+		margin-top: 0	
