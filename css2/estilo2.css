@@ -1,0 +1,139 @@
+#fondo-negro{
+	background-color: black;
+	height: 45px;
+	display: fixed;
+}
+
+.botones-header{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.boton1-header{
+	margin-top: 10px;
+	margin-right: 10px;
+	color: white;
+	font-weight: 600;
+	font-family: "Open Sans", sans-serif;
+}
+
+.boton2-header{
+	margin-top: 10px;
+	margin-left: 10px;
+	color: white;
+	font-weight: 600;
+	font-family: "Open Sans", sans-serif;
+}
+
+.boton1-header:hover{
+	font-weight: 800;
+	text-decoration: none;
+	color: white;
+}
+
+.boton2-header:hover{
+	font-weight: 800;
+	text-decoration: none;
+	color: white;
+}
+#fondo-jumbotron{
+	font-family: "Open Sans", sans-serif;
+	margin-top: -30px;
+	margin-bottom: 35px;
+}
+
+.hola-jumbotron{
+	font-size: 120px;
+	margin-bottom: 43px;
+	text-align: center;
+}
+
+.texto-jumbotron{
+	font-size: 19px;
+	font-weight: 300;
+	text-align: center;
+}
+
+#fondo-foto{
+	background-color: white;
+}
+
+.foto-perfil{
+	text-align: center;
+}
+
+.foto-perfil img{
+	border-radius: 100%;
+	margin-top: 41px;
+	transition: all 1.3s cubic-bezier(.68,-0.55,.27,1.55) 0s;
+}
+
+.foto-perfil img:hover{
+	transform: scale(1.25);
+}
+
+.titulo-especialidades{
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 40px;
+	margin-top: 50px;
+}
+
+#fondo-especialidades{
+	background-color: #F2F2F2;
+}
+
+/*PruebaParallax*/
+
+.izquierda{
+	padding-right: 50%;
+	text-align: justify;
+	color: white;
+}
+
+.derecha{
+	padding-left: 50%;
+	text-align: justify;
+	color: white;
+}
+
+.fondo-bosque{
+	background-image: url(./img/bosque.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	clear: both;
+}
+
+.fondo-agua{
+	background-image: url(./img/agua.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.fondo-gente{
+	background-image: url(./img/gente.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.fondo-edificios{
+	background-image: url(./img/edificios.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.izquierda p{
+	margin-bottom: 0;
+}
+
+.derecha p{
+	margin-bottom: 0;
+}
+
+.derecha h3{
+	margin-top: 0;
+}
+
+.izquierda h3{
+	margin-top: 0;
+}
