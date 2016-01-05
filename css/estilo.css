@@ -2,32 +2,22 @@
   background-color: black;
   height: 45px;
   display: fixed; }
-
-.bloque-botones {
-  text-align: center;
-  padding-top: 10px; }
-
-.botones-header {
-  margin-top: 10px;
-  color: white;
-  font-weight: 600;
-  font-family: "Open Sans", sans-serif; }
-
-.btn-izq {
-  margin-right: 10px; }
-
-.btn-der {
-  margin-left: 10px; }
-
-.boton1-header:hover {
-  font-weight: 800;
-  text-decoration: none;
-  color: white; }
-
-.boton2-header:hover {
-  font-weight: 800;
-  text-decoration: none;
-  color: white; }
+  #fondo-negro .bloque-botones {
+    text-align: center;
+    padding-top: 10px; }
+    #fondo-negro .bloque-botones .botones-header {
+      margin-top: 10px;
+      color: white;
+      font-weight: 600;
+      font-family: "Open Sans", sans-serif; }
+      #fondo-negro .bloque-botones .botones-header:hover {
+        font-weight: 800;
+        text-decoration: none;
+        color: white; }
+    #fondo-negro .bloque-botones .btn-izq {
+      margin-right: 10px; }
+    #fondo-negro .bloque-botones .btn-der {
+      margin-left: 10px; }
 
 #fondo-jumbotron {
   font-family: "Open Sans", sans-serif;
