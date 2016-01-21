@@ -1,5 +1,15 @@
+@mixin textos-circulos
+	position: absolute
+	padding-top: 45px
+	font-family: "Open Sans", sans-serif
+	font-weight: 800
+	color: white
+	z-index: 1
+	font-size: 19px
+	display: none
+
 #fondo-negro
-	background-color: black
+	background-color: #292929
 	height: 45px
 	position: fixed
 	z-index: 1
@@ -25,8 +35,8 @@
 		.btn-der
 			margin-left: 10px
 
-.container-fluid
-	box-shadow: 0px 0px 10px #888888
+#anchototal
+	padding: 0 0px
 	
 
 
@@ -60,8 +70,8 @@
 			font-weight: 300
 			text-align: center
 
-	.fondo-blueprint
-		background-image: url(./img/blueprint.jpg)
+	.fondo-gris
+		background-image: url(./img/background-edificiosgris.jpg)
 		background-repeat: no-repeat
 		background-attachment: fixed
 		height: 400px
@@ -71,14 +81,60 @@
 		background-image: url(./img/background-edificios.jpg)
 		background-repeat: no-repeat
 		background-attachment: fixed
+		box-shadow: 0px 0px 25px #424242
 		height: 400px
 
+	.article-circulos
+		margin-top: 80px
+		margin-left: 10px
 
-	#fondo-especialidades
-		background-color: #F2F2F2
-
-		.titulo-especialidades
-			text-align: center
+		h3
 			font-family: "Open Sans", sans-serif
-			font-size: 40px
-			margin-top: 50px
+		ul
+			font-family: "Open Sans", sans-serif
+			font-weight: 300
+
+
+	.ajuste-circulo
+		width: 19%
+
+	.circulo-contenido, .circulo-desarrollo, .circulo-investigacion, .circulo-marca
+		background-color: #E1E1E1
+		border-radius: 100%
+		width: 115px
+		height: 115px
+		margin-right: 10px
+		position: relative
+		display: inline-block
+		&:hover
+			opacity: 0.5
+			background-color: #245EAB
+		&:hover .texto-contenido
+			display: inline
+		&:hover .texto-web
+			display: inline
+		&:hover .texto-investigacion
+			display: inline
+		&:hover .texto-marca
+			display: inline
+
+		.texto-contenido
+			padding-left: 7px
+			@include textos-circulos
+		
+		.texto-web
+			padding-left: 36px
+			@include textos-circulos
+
+		.texto-investigacion
+			padding-left: 12px
+			@include textos-circulos
+
+		.texto-marca
+			padding-left: 26px
+			@include textos-circulos
+
+		img
+			position: absolute
+			padding-left: 25px
+			padding-top: 25px

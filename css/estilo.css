@@ -1,5 +1,5 @@
 #fondo-negro {
-  background-color: black;
+  background-color: #292929;
   height: 45px;
   position: fixed;
   z-index: 1; }
@@ -20,49 +20,116 @@
     #fondo-negro .bloque-botones .btn-der {
       margin-left: 10px; }
 
-.container-fluid {
-  box-shadow: 0px 0px 10px #888888; }
-  .container-fluid #fondo-foto {
+#anchototal {
+  padding: 0 0px; }
+  #anchototal #fondo-foto {
     background-color: white; }
-    .container-fluid #fondo-foto .foto-perfil {
+    #anchototal #fondo-foto .foto-perfil {
       text-align: center;
       margin-top: 50px;
       margin-bottom: 40px; }
-      .container-fluid #fondo-foto .foto-perfil img {
+      #anchototal #fondo-foto .foto-perfil img {
         border-radius: 100%;
         margin-top: 41px;
         transition: all 1.3s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s; }
-        .container-fluid #fondo-foto .foto-perfil img:hover {
+        #anchototal #fondo-foto .foto-perfil img:hover {
           transform: scale(1.25); }
-  .container-fluid #fondo-jumbotron {
+  #anchototal #fondo-jumbotron {
     font-family: "Open Sans", sans-serif;
     margin-top: -30px;
     margin-bottom: 35px; }
-    .container-fluid #fondo-jumbotron .hola-jumbotron {
+    #anchototal #fondo-jumbotron .hola-jumbotron {
       font-size: 120px;
       margin-bottom: 43px;
       text-align: center; }
-    .container-fluid #fondo-jumbotron .texto-jumbotron {
+    #anchototal #fondo-jumbotron .texto-jumbotron {
       font-size: 19px;
       font-weight: 300;
       text-align: center; }
-  .container-fluid .fondo-blueprint {
-    background-image: url(./img/blueprint.jpg);
+  #anchototal .fondo-gris {
+    background-image: url(./img/background-edificiosgris.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 400px;
     clear: both; }
-  .container-fluid .fondo-edificios {
+  #anchototal .fondo-edificios {
     background-image: url(./img/background-edificios.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: 0px 0px 25px #424242;
     height: 400px; }
-  .container-fluid #fondo-especialidades {
-    background-color: #F2F2F2; }
-    .container-fluid #fondo-especialidades .titulo-especialidades {
-      text-align: center;
+  #anchototal .article-circulos {
+    margin-top: 80px;
+    margin-left: 10px; }
+    #anchototal .article-circulos h3 {
+      font-family: "Open Sans", sans-serif; }
+    #anchototal .article-circulos ul {
       font-family: "Open Sans", sans-serif;
-      font-size: 40px;
-      margin-top: 50px; }
+      font-weight: 300; }
+  #anchototal .ajuste-circulo {
+    width: 19%; }
+  #anchototal .circulo-contenido, #anchototal .circulo-desarrollo, #anchototal .circulo-investigacion, #anchototal .circulo-marca {
+    background-color: #E1E1E1;
+    border-radius: 100%;
+    width: 115px;
+    height: 115px;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block; }
+    #anchototal .circulo-contenido:hover, #anchototal .circulo-desarrollo:hover, #anchototal .circulo-investigacion:hover, #anchototal .circulo-marca:hover {
+      opacity: 0.5;
+      background-color: #245EAB; }
+    #anchototal .circulo-contenido:hover .texto-contenido, #anchototal .circulo-desarrollo:hover .texto-contenido, #anchototal .circulo-investigacion:hover .texto-contenido, #anchototal .circulo-marca:hover .texto-contenido {
+      display: inline; }
+    #anchototal .circulo-contenido:hover .texto-web, #anchototal .circulo-desarrollo:hover .texto-web, #anchototal .circulo-investigacion:hover .texto-web, #anchototal .circulo-marca:hover .texto-web {
+      display: inline; }
+    #anchototal .circulo-contenido:hover .texto-investigacion, #anchototal .circulo-desarrollo:hover .texto-investigacion, #anchototal .circulo-investigacion:hover .texto-investigacion, #anchototal .circulo-marca:hover .texto-investigacion {
+      display: inline; }
+    #anchototal .circulo-contenido:hover .texto-marca, #anchototal .circulo-desarrollo:hover .texto-marca, #anchototal .circulo-investigacion:hover .texto-marca, #anchototal .circulo-marca:hover .texto-marca {
+      display: inline; }
+    #anchototal .circulo-contenido .texto-contenido, #anchototal .circulo-desarrollo .texto-contenido, #anchototal .circulo-investigacion .texto-contenido, #anchototal .circulo-marca .texto-contenido {
+      padding-left: 7px;
+      position: absolute;
+      padding-top: 45px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      color: white;
+      z-index: 1;
+      font-size: 19px;
+      display: none; }
+    #anchototal .circulo-contenido .texto-web, #anchototal .circulo-desarrollo .texto-web, #anchototal .circulo-investigacion .texto-web, #anchototal .circulo-marca .texto-web {
+      padding-left: 36px;
+      position: absolute;
+      padding-top: 45px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      color: white;
+      z-index: 1;
+      font-size: 19px;
+      display: none; }
+    #anchototal .circulo-contenido .texto-investigacion, #anchototal .circulo-desarrollo .texto-investigacion, #anchototal .circulo-investigacion .texto-investigacion, #anchototal .circulo-marca .texto-investigacion {
+      padding-left: 12px;
+      position: absolute;
+      padding-top: 45px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      color: white;
+      z-index: 1;
+      font-size: 19px;
+      display: none; }
+    #anchototal .circulo-contenido .texto-marca, #anchototal .circulo-desarrollo .texto-marca, #anchototal .circulo-investigacion .texto-marca, #anchototal .circulo-marca .texto-marca {
+      padding-left: 26px;
+      position: absolute;
+      padding-top: 45px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 800;
+      color: white;
+      z-index: 1;
+      font-size: 19px;
+      display: none; }
+    #anchototal .circulo-contenido img, #anchototal .circulo-desarrollo img, #anchototal .circulo-investigacion img, #anchototal .circulo-marca img {
+      position: absolute;
+      padding-left: 25px;
+      padding-top: 25px; }
 
 /*# sourceMappingURL=estilo.css.map */
