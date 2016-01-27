@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<link rel="stylesheet" type="text/css" href="css2/normalize.css" media="screen" />
+			<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
 			<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-			<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen" />
-			<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
 			<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800' rel='stylesheet' type='text/css'>
 			<meta charset="UTF-8">
 			<title>Benjamín Alarcón - Comunicador Desarrolador Web</title>
@@ -13,10 +13,13 @@
 
 		<body>
 			<header class="col-xs-12" id="fondo-negro">
-				<nav class="bloque-botones">
-					<a href="#" class="botones-header btn-izq">Sobre mí</a>
-					<a href="#" class="botones-header btn-der">Mis trabajos</a>
-				</nav>
+				<img src="./css/img/logo.png" alt="logo" class="logo"/>
+				<div class="centrar-botones">
+					<nav class="bloque-botones">
+						<a href="#" class="botones-header btn-izq">Sobre mí</a>
+						<a href="galeria.html" class="botones-header btn-der">Mis trabajos</a>
+					</nav>
+				</div>
 			</header>
 
 			<div class="container-fluid" id="anchototal">
@@ -43,11 +46,11 @@
 										<img src="css/img/speaker.png" alt="speaker"/>
 									</div>
 								</div>
-								<div class="col-xs-9">
+								<div class="col-xs-8 col-xs-offset-1">
 									<h3>Generación de Contenido</h3>
 									<ul>
 										<li>Storytelling</li>
-										<li>Comunicación 360°.</li>
+										<li>Comunicación 360°</li>
 										<li>ATL y BTL</li>
 										<li>MKT Digital</li>
 									</ul>
@@ -56,65 +59,81 @@
 						</section>
 
 						<section class="col-xs-6">
-							<div class="col-xs-3 ajuste-circulo">
-								<div class="circulo-desarrollo">
-									<p class="texto-web">Web</p>
-									<img src="css/img/computer.png" alt="computer"/>
+							<div class="row">
+								<div class="col-xs-3 ajuste-circulo">
+									<div class="circulo-desarrollo">
+										<p class="texto-web">Web</p>
+										<img src="css/img/computer.png" alt="computer"/>
+									</div>
 								</div>
-							</div>
-							<div class="col-xs-9">
-								<h3>Desarrollo y Diseño Web</h3>
-								<ul>
-									<li>HTML5 y CSS3</li>
-									<li>Bootstrap</li>
-									<li>Javascript</li>
-									<li>Responsive Design</li>
-									<li>Sitios y Plataformas web</li>
-								</ul>
+								<div class="col-xs-8 col-xs-offset-1">
+									<h3>Desarrollo y Diseño Web</h3>
+									<ul>
+										<li>HTML5 y CSS3</li>
+										<li>Bootstrap</li>
+										<li>Responsive Design</li>
+										<li>Sitios y Plataformas web</li>
+									</ul>
+								</div>
 							</div>					
 						</section>
 					</div>
-
-					<section class="col-xs-6">
-						<div class="col-xs-3 ajuste-circulo">
-							<div class="circulo-investigacion">
-								<p class="texto-investigacion">Investiga</p>
-								<img src="css/img/focusing.png" alt="focus"/>
+					<div class="row">
+						<section class="col-xs-6">
+							<div class="row">
+								<div class="col-xs-3 ajuste-circulo">
+									<div class="circulo-investigacion">
+										<p class="texto-investigacion">Investiga</p>
+										<img src="css/img/focusing.png" alt="focus"/>
+									</div>
+								</div>
+								<div class="col-xs-8 col-xs-offset-1">
+									<h3>Investigación</h3>
+									<ul>
+										<li>Búsqueda de Insights</li>
+										<li>Valor Agregado</li>
+										<li>Análisis de target potencial</li>
+										<li>Entrega de propuesta</li>
+									</ul>
+								</div>
 							</div>
-						</div>
-						<div class="col-xs-9">
-							<h3>Investigación</h3>
-							<ul>
-								<li>Búsqueda de Insights</li>
-								<li>Valor Agregado</li>
-								<li>Análisis de target potencial</li>
-								<li>Entrega de propuesta</li>
-							</ul>
-						</div>
-					</section>
+						</section>
 
-					<section class="col-xs-6">
-						<div class="col-xs-3 ajuste-circulo">
-							<div class="circulo-marca">
-								<p class="texto-marca">Marca</p>
-								<img src="css/img/bird.png" alt="bird"/>
+						<section class="col-xs-6">
+							<div class="row">
+								<div class="col-xs-3 ajuste-circulo">
+									<div class="circulo-marca">
+										<p class="texto-marca">Marca</p>
+										<img src="css/img/bird.png" alt="bird"/>
+									</div>
+								</div>
+								<div class="col-xs-8 col-xs-offset-1">
+									<h3>Creación de marca</h3>
+									<ul>
+										<li>Diseño</li>
+										<li>Desarrollo de concepto</li>
+										<li>Identidad de marca</li>
+									</ul>
+								</div>
 							</div>
-						</div>
-						<div class="col-xs-9">
-							<h3>Creación de marca</h3>
-							<ul>
-								<li>Diseño</li>
-								<li>Desarrollo de concepto</li>
-								<li>Identidad de marca</li>
-							</ul>
-						</div>
-					</section>
+						</section>
+					</div>
 				</article>
 
+				<div class="row">
+					<article class="col-xs-12" id="fondo-vamos">
+						<h1 class="titulo-vamos">¡Vamos al grano!</h1>
+						<p class="bajada-vamos">Te invito a ver mis trabajos a continuación</p>
+						<div class="boton-vamos">
+							<a href="galeria.html" class="texto-boton">¡Vamos!</a>
+						</div>
+					</article>
+				</div>
 
-				<footer>
+				<footer id="foot">
 					<nav></nav>
-				</footer>
+				</footer>	
+
 			</div>
 		</body>
 	</html>
